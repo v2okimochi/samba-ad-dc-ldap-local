@@ -40,7 +40,7 @@ cf. https://hub.docker.com/repository/docker/v2okimochi/samba-ad-dc-ldap-local
   - DockerHubのTag = `latest`
 - `vX.Y.Z`Tagをつける:
   - DockerHubのTag = `X.Y.Z`
-  - たとえば `v1.0.5`ブランチにマージすればTag `1.0.5`となる
+  - たとえばGitHub上で `v1.0.5`タグをつければ、 `1.0.5`となる
 
 
 あえて手元でやるなら、たとえばこうする。
