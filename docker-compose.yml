@@ -1,8 +1,8 @@
 version: "3.8"
 services:
   active-directory:
-    image: v2okimochi/samba-ad-local:1.0.0
-    container_name: v2okimochi-ad-local
+    image: v2okimochi/samba-ad-dc-ldap-local:1.0.0
+    container_name: v2okimochi-ad-dc-ldap-local
     privileged: true
     environment:
       DOMAIN: V2-OKIMOCHI
